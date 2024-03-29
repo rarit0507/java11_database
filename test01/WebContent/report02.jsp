@@ -119,6 +119,7 @@
 </head>
 <body>
 <h1 class="title">DBMS 점검 보고서</h1>
+<hr>
 <%@ include file="menu.jsp" %>
 <hr>
 <h2 class="title">Datafile 목록</h2>
