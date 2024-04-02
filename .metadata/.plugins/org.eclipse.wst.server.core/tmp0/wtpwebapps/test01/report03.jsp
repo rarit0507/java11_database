@@ -63,7 +63,7 @@
 		}
 	}
 	
-	pageContext.setAttribute("tList", tList);
+	pageContext.setAttribute("tList", tList);	//Web에 데이터 전송
 %>  
 <!DOCTYPE html>
 <html>
@@ -95,7 +95,7 @@
 		</tr>
 	</thead>
 	<tbody>
-	<c:forEach var="data" items="${tList }" varStatus="status">
+	<c:forEach var="data" items="${tList }" varStatus="status">	<!--  -->
 		<tr>
 			<td>${data.owner }</td><td>${data.table_name }</td>
 			<td>${data.tablespace_name }</td><td>${data.pct_used }</td>
@@ -107,7 +107,7 @@
 <hr>
 <h2 class="title">데이터베이스 ERD</h2>
 <div class="img1">
-	<img src="./relational_1.png" alt="데이터베이스 ERD" class="img1" />
+	<img src="./relational_1.png" alt="데이터베이스 ERD" class="img1" />	<!--  -->
 </div>
 <hr>
 <br>
